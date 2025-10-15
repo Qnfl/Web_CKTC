@@ -1,0 +1,57 @@
+nav {
+  display: flex;
+}
+
+.link-section {
+  padding: 35px;
+  margin-left: 150px;
+}
+
+.link-navigation {
+  color: #757783;
+  text-decoration: none;
+  transition: 0.15s ease;
+  padding: 15px;
+}
+
+.link-navigation:visited {
+  color: #757783;
+}
+
+.link-navigation:hover {
+  color: #5e6fe6;
+  text-decoration: none;
+}
+
+.link-navigation:active {
+  color: #5e6fe6;
+}
+
+.link-navigation i {
+  font-size: 8px;
+  vertical-align: middle;
+}
+
+.sign-in {
+  display: flex;
+  padding: 35px;
+  margin-left: 150px;
+}
+
+.sign-in-one {
+  display: flex;
+  font-size: 12px;
+  color: #757783;
+  padding-right: 10px;
+  border-right: 1px solid #dbdde9;
+}
+
+.sign-in-two {
+  display: flex;
+  padding-left: 10px;
+}
+
+.sign-in-one i {
+  font-size: 12px;
+  margin-right: 5px;
+}

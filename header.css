@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  padding: 25px 0;
+  border-bottom: 1px solid #dbdde9;
+}
+
+.main-logo {
+  width: 130px;
+  height: 100%;
+  margin-left: 205px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-left: 285px;
+}
+
+.icon-facebook i,
+.icon-youtube i,
+.icon-instagram i {
+  color: #757783;
+  padding: 10px;
+  background-color: #f1f2f2;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: 0.15s ease;
+}
+
+.icon-facebook i:hover,
+.icon-youtube i:hover,
+.icon-instagram i:hover {
+  color: white;
+  background-color: #5e6fe6;
+
+}
+
+.nomor,
+.email {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nomor {
+  border-right: 1px solid #dbdde9;
+  padding-right: 50px;
+  margin-left: 35px;
+}
+
+.icon-whatsapp i,
+.icon-email i {
+  color: #5e6fe6;
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.deskripsi {
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(174, 178, 194);
+}
+
+.informasi {
+  font-size: 16px;
+  line-height: 29px;
+  color: black;
+  transition: 0.15s ease;
+}
+
+.informasi:hover {
+  color: #5e6fe6;
+}
